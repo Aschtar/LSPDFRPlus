@@ -28,7 +28,7 @@ namespace LSPDFR_
         public override void Initialize()
         {
             Functions.OnOnDutyStateChanged += Functions_OnOnDutyStateChanged;
-            Game.LogTrivial("LSPDFR+ " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", developed by Albo1125, has been initialised.");
+            Game.LogTrivial("LSPDFR+ " + Assembly.GetExecutingAssembly().GetName().Version.ToString() + ", by Albo1125 updated by Aschtar for LSPDFR 0.4.9");
             Game.LogTrivial("Go on duty to start LSPDFR+.");
             Albo1125.Common.UpdateChecker.VerifyXmlNodeExists(PluginName, FileID, DownloadURL, Path);
             Albo1125.Common.DependencyChecker.RegisterPluginForDependencyChecks(PluginName);
@@ -36,12 +36,12 @@ namespace LSPDFR_
         }
 
         internal static Version Albo1125CommonVer= new Version("6.6.4.0");
-        internal static Version MadeForGTAVersion = new Version("1.0.1604.1");
+        internal static Version MadeForGTAVersion = new Version("1.0.2699.0");
         internal const float MinimumRPHVersion = 0.51f;
         internal static string[] AudioFilesToCheckFor = new string[] { };
         internal static string[] OtherFilesToCheckFor = new string[] {  }; //"Plugins/LSPDFR/LSPDFR+/CourtCases.xml"
-        internal static Version RAGENativeUIVersion = new Version("1.6.3.0");
-        internal static Version MadeForLSPDFRVersion = new Version("0.4.4");
+        internal static Version RAGENativeUIVersion = new Version("1.9");
+        internal static Version MadeForLSPDFRVersion = new Version("0.4.9");
 
         internal const string DownloadURL = "https://www.lcpdfr.com/files/file/11930-lspdfr-improved-pursuit-ai-better-traffic-stops-court-system/";
 

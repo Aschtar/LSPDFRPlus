@@ -260,9 +260,9 @@ namespace LSPDFR_
             GameFiber.StartNew(delegate
             {
 
-                Game.LogTrivial("LSPDFR+, developed by Albo1125, has been loaded successfully!");
+                Game.LogTrivial("LSPDFR+, by Albo1125 updated by Aschtar for LSPDFR 0.4.9");
                 GameFiber.Wait(6000);
-                Game.DisplayNotification("~b~LSPDFR+~s~, developed by ~b~Albo1125, ~s~has been loaded ~g~successfully.");
+                Game.DisplayNotification("~b~LSPDFR+~s~, by ~b~Albo1125, ~s~updated by Aschtar for LSPDFR 0.4.9 ~g~loaded successfully.");
 
 
             });
